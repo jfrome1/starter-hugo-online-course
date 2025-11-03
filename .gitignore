@@ -1,8 +1,83 @@
-# IDEs
-.idea/
+# Node modules
+**/node_modules
 
-# Hugo
+# Framework files
+*.code-workspace
+
+# Build output
+dist/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
+temp/
+tmp/
+
+# Office temp files
+~$*
+
+# Git conflict artifacts
+*.rej
+*.orig
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Hugo specific
 /resources/
 public/
 jsconfig.json
-node_modules/
+
+# Astro specific
+.astro/
+.vercel
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Cache files
+.cache
+.eslintcache
+.stylelintcache
+
+# Shortcuts
+*.lnk
+
+# Package manager lock files
+pnpm-lock.yaml
